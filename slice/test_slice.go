@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/buddhavs/go_test_code/util"
+	_ "github.com/buddhavs/go_test_code"
 )
 
 type Run struct{}
@@ -27,5 +27,4 @@ func main() {
 
 	 */
 	slice = make([]int, 3, 3)
-	util.PrintType(slice)
 }
