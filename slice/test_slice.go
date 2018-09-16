@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"reflect"
+
+	"github.com/buddhavs/go_test_code/util"
 )
 
 type Run struct{}
@@ -26,5 +27,5 @@ func main() {
 
 	 */
 	slice = make([]int, 3, 3)
-	fmt.Println(reflect.ValueOf(3).String())
+	util.PrintType(slice)
 }
